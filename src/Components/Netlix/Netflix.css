@@ -1,0 +1,62 @@
+.principal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .search-form {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .search-button {
+    padding: 10px;
+    background-color: #e50914;
+    color: #ffffff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .adicional{
+    color: white;
+  }
+  
+  .movie-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  
+  .movie-item {
+    flex: 0 0 200px;
+    margin: 10px;
+    background-color: #141414;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-title {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #fff;
+    padding: 10px;
+  }
+  
